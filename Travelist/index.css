@@ -24,10 +24,13 @@ body {
     padding: 2vw;
     background: rgb(255, 255, 255);
     background: linear-gradient( 180deg, rgba(255, 255, 255, 1) 0%, rgb(175, 217, 222) 75%, rgba(255, 255, 255, 1) 100%);
+    font-family: "Dosis";
+    font-style: normal;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .title {
@@ -41,7 +44,6 @@ a {
 
 .header h1 {
     font-family: "Irish Grover";
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
@@ -57,8 +59,6 @@ a {
 }
 
 .title {
-    font-family: "Dosis";
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
@@ -70,8 +70,6 @@ a {
 }
 
 .copy {
-    font-family: "Dosis";
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -97,8 +95,6 @@ a {
     justify-content: center;
     align-items: center;
     margin: 5vh 0;
-    font-family: "Dosis";
-    font-style: normal;
     font-weight: 800;
     font-size: 20px;
     line-height: 25px;
@@ -138,14 +134,12 @@ a {
     top: 4vmin;
     color: white;
     padding: 10px;
-    font-family: "Dosis";
-    font-style: normal;
     font-weight: 600;
 }
 
 .footer {
     border-top: 4px solid #215db8;
-    width: 85vw;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -155,10 +149,7 @@ a {
 }
 
 .footer p {
-    font-family: "Dosis";
-    font-style: normal;
     font-weight: 400;
-    padding: 10px 0;
 }
 
 .copyright {
@@ -229,11 +220,11 @@ a {
         font-size: 1.4vw;
     }
     .footer {
-        width: 100vw;
+        width: 100%;
     }
     .footer p {
-        font-size: 1.2vw;
-        line-height: 1.5vw;
+        font-size: 20px;
+        line-height: 30px;
     }
     .example-img p {
         font-size: 1.6vw;
