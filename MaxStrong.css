@@ -142,8 +142,7 @@ img {
 .hero-container h1 {
     font-style: normal;
     font-weight: 500;
-    font-size: 9vh;
-    /* or 104% */
+    font-size: 48px;
     color: #111235;
     margin-bottom: 1vh;
 }
@@ -288,6 +287,10 @@ img {
     width: 100%;
 }
 
+.contact-piece {
+    width: 250px;
+}
+
 .contact-form {
     font-weight: 600;
     font-size: 18px;
@@ -351,6 +354,7 @@ img {
 .centering-container {
     display: flex;
     justify-content: center;
+    width: 250px;
 }
 
 .socials {
@@ -377,11 +381,12 @@ img {
 
 .email-piece {
     position: relative;
+    width: 250px;
 }
 
 .email-piece img {
     position: absolute;
-    right: 25px;
+    right: 10px;
     top: 20px;
 }
 
@@ -458,8 +463,8 @@ img {
         justify-content: center;
         flex-direction: row;
     }
-    .trainer img {
-        /*width: 45vw;*/
+    .benefits-img-desktop img {
+        width: 45vw;
     }
     .trainer-blurb {
         width: 49vw;
@@ -488,6 +493,9 @@ img {
     }
     .benefits-img-desktop {
         display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 100%;
     }
     .benefits-header-desktop {
         display: flex;
