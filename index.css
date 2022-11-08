@@ -52,11 +52,13 @@ h1 {
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
     width: 40vw;
+    border-radius: 20px;
 }
 
 .polaroid img {
     width: 35vw;
     height: 28vw;
+    border-radius: 10px;
 }
 
 .copyright {
