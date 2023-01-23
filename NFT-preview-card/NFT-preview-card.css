@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.background {
+    background-color: #0c192cff;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu";
+    color: #a3a3a3;
+}
+
+.card {
+    background-color: hsl(214, 50%, 16%);
+    width: 80vw;
+    max-width: 300px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.imageEquilibrium {
+    width: 60vw;
+    max-width: 260px;
+    height: auto;
+    border-radius: 3%;
+    margin: 1em auto;
+}
+
+.title {
+    margin-top: 5%;
+    font-size: 28px;
+    width: 60vw;
+    max-width: 260px;
+}
+
+.description {
+    color: hsl(214, 75%, 75%);
+    width: 92%;
+    margin: 5% 0;
+    font-size: .9em;
+    line-height: 2em;
+    width: 60vw;
+    max-width: 260px;
+}
+
+.icon {
+    margin-right: .4em;
+}
+
+.pricebox {
+    color: #00ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    max-width: 260px;
+}
+
+.auctionEnd {
+    color: hsl(214, 75%, 75%);
+}
+
+.horizline {
+    width: 60vw;
+    max-width: 260px;
+    border-top: hsl(214, 75%, 75%) solid .9px;
+    margin-top: 1.2em;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.avatarCircle {
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageAvatar {
+    width: 2.8em;
+    height: auto;
+    margin: .15em;
+}
+
+.creationOf {
+    color: hsl(214, 75%, 75%);
+    margin-left: 1.5em;
+
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    background-color: black;
+
+    font-family: "Ubuntu";
+}
